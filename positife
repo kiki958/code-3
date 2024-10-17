@@ -1,0 +1,7 @@
+def tous_positif(L):
+    for nombre in L:
+        if nombre<0:
+            return false
+        return true 
+    L=[0,1,2,3,-4]
+print(tous_positif(L))
