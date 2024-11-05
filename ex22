@@ -1,0 +1,7 @@
+def positifs (L):
+     counter=0
+    for i in range (len(L)):
+            if L[i]>=0:
+                counter+=1
+    return counter
+print(positifs[2,-1,3,4,-6,0,6]))
